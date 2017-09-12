@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="masterTest"
+    errors="0" failures="0" hostname="" id="" package="masterTest" skipped="0"
+    tests="9" time="5.867" timestamp="Tue, 12 Sep 2017 16:43:53 GMT">
+  
+    <testcase name="Searches by City" classname="masterTest" time="2.548" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Loads the results from City search" classname="masterTest" time="0.8370" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Resets for the zip search" classname="masterTest" time="0.1810" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Searches by Zip" classname="masterTest" time="0.2140" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Loads the results from Zip search" classname="masterTest" time="0.7510" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Resets for empty search" classname="masterTest" time="0.1470" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Searches with an empty string" classname="masterTest" time="0.2040" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Displays error message" classname="masterTest" time="0.7400" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="And will search again" classname="masterTest" time="0.2450" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

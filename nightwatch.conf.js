@@ -1,12 +1,12 @@
 let resourcePath = '/Users/ajlarson/src/testing-resources/selenium-resources/'
 
 module.exports = {
-    "src_folders": ["tests"],
-    "output_folder": "reports",
-    "custom_commands_path": "",
+    "src_folders": ["nightwatch/tests"],
+    "output_folder": "nightwatch/reports",
+    "custom_commands_path": "nightwatch/sharedFunctions",
     "custom_assertions_path": "",
-    "page_objects_path": "",
-    "globals_path": "",
+    "page_objects_path": "nightwatch/pageObjects",
+    "globals_path": "nightwatch/globals.js",
 
     "selenium": {
         "start_process": true,

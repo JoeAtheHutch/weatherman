@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="0">
 
-  <testsuite name="homepageTest"
-    errors="1" failures="0" hostname="" id="" package="homepageTest" skipped="1"
-    tests="2" time="0.005000" timestamp="Thu, 24 Aug 2017 22:23:08 GMT">
-  
-    <testcase name="Elements are present" classname="homepageTest" time="0.005000" assertions="0">
-    </testcase>
+  <testsuite name="resetSearch"
+    errors="0" failures="0" hostname="" id="" package="resetSearch" skipped="0"
+    tests="0" time="0.000" timestamp="Mon, 11 Sep 2017 17:15:43 GMT">
   
 
   
     <system-err>
-        Error while running [Homepage Test / Elements are present]:
+        Error while running [Search By City / Search by city]:
 
-  TypeError: Cannot read property 'visible' of undefined
-    at Object.Elements are present (/Users/ajlarson/src/weatherman/nightwatch/tests/homepageTest.js:11:24)
+  TypeError: home.end is not a function
+    at Object.Search by city (/Users/ajlarson/src/weatherman/nightwatch/tests/searchByCity.js:8:14)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -29,13 +26,6 @@
     </system-err>
   
 
-  
-    
-    <testcase
-      name="Inputs are accepted" classname="homepageTest">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
