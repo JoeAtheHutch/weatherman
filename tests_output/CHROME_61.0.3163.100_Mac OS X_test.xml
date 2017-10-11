@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="2.580" timestamp="Wed, 11 Oct 2017 21:33:22 GMT">
+    tests="2" time="3.345" timestamp="Wed, 11 Oct 2017 22:21:41 GMT">
   
-    <testcase name="Demo test Google" classname="test" time="2.580" assertions="3">
+    <testcase name="Demo test Nightwatch" classname="test" time="2.452" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search by zipcode" classname="test" time="0.8930" assertions="3">
 
     
 
