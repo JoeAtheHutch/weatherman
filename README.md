@@ -60,11 +60,13 @@ Now it's time to get started actually running automation.
 * Create the `nightwatch` folder in the base directory of your repository.
 * Inside `nightwatch` create two folders, one `tests`, and another `test_data`.
 
+```
 weatherman
 |
 `-- nightwatch
   |-- tests
   `-- test_data
+```
 
 * In your `test_data` folder you can create files for your test data, selectors and helper functions.  You'll create files for your tests in the `tests` folder.
 
