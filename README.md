@@ -94,6 +94,7 @@ Otherwise, have at it!  Ask if you have questions.
 
 <summary> <code> File Structure </code> </summary>
 
+```
 weatherman
 |
 |-- nightwatch
@@ -113,6 +114,7 @@ weatherman
 |-- package.json
 |-- README.md
 `-- yarn.lock
+```
 
 </details>
 
