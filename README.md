@@ -505,6 +505,8 @@ module.exports = {
 }
 ```
 
+</details>
+
 ## Step 6
 
 ### Summary
