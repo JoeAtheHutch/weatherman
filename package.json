@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "axios": "^0.16.2",
+    "react-scripts": "0.9.5",
+    "redux-promise-middleware": "^4.4.1"
   },
   "dependencies": {
     "axios": "^0.15.3",

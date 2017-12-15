@@ -1,0 +1,70 @@
+10:52:28.174 INFO - Selenium build info: version: '3.5.0', revision: '8def36e068'
+10:52:28.176 INFO - Launching a standalone Selenium Server
+2017-10-11 10:52:28.219:INFO::main: Logging initialized @541ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:52:28.304 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:52:28.372 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+10:52:28.372 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+10:52:28.420 INFO - Using the passthrough mode handler
+2017-10-11 10:52:28.459:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-10-11 10:52:28.487:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@3632be31{/,null,STARTING} has uncovered http methods for path: /
+2017-10-11 10:52:28.496:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3632be31{/,null,AVAILABLE}
+2017-10-11 10:52:28.549:INFO:osjs.AbstractConnector:main: Started ServerConnector@32709393{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-10-11 10:52:28.550:INFO:osjs.Server:main: Started @872ms
+10:52:28.550 INFO - Selenium Server is up and running
+2017-10-11 10:52:28.862:INFO:osjshC.ROOT:qtp1562557367-11: org.openqa.selenium.remote.server.WebDriverServlet-39aeed2f: Initialising WebDriverServlet
+10:52:28.946 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+10:52:28.947 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@646f609c
+10:52:28.950 INFO - /session: Executing POST on /session (handler: BeginSession)
+10:52:28.978 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=First Automated Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+10:52:28.979 INFO - Capabilities {acceptSslCerts=true, name=First Automated Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+10:52:28.980 INFO - Capabilities {acceptSslCerts=true, name=First Automated Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 19129
+Only local connections are allowed.
+10:52:30.034 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:30.034 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/url (handler: ServicedSession)
+10:52:30.039 INFO - To upstream: {"url":"http://www.google.com"}
+10:52:31.622 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":null}
+10:52:31.637 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.637 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/elements (handler: ServicedSession)
+10:52:31.639 INFO - To upstream: {"using":"css selector","value":"body"}
+10:52:31.656 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":[{"ELEMENT":"0.32142968781667003-1"}]}
+10:52:31.659 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.659 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing GET on /session/426eb44e09f7328ab79a0170e19c89e4/element/0.32142968781667003-1/displayed (handler: ServicedSession)
+10:52:31.673 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":true}
+10:52:31.677 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.677 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/element (handler: ServicedSession)
+10:52:31.679 INFO - To upstream: {"using":"css selector","value":"input[type=text]"}
+10:52:31.695 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":{"ELEMENT":"0.32142968781667003-2"}}
+10:52:31.698 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.698 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/element/0.32142968781667003-2/value (handler: ServicedSession)
+10:52:31.699 INFO - To upstream: {"value":["n","i","g","h","t","w","a","t","c","h"]}
+10:52:31.780 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":null}
+10:52:31.786 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.786 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/elements (handler: ServicedSession)
+10:52:31.787 INFO - To upstream: {"using":"css selector","value":"input[name=btnK]"}
+10:52:31.801 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":[{"ELEMENT":"0.32142968781667003-3"}]}
+10:52:31.804 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.804 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing GET on /session/426eb44e09f7328ab79a0170e19c89e4/element/0.32142968781667003-3/displayed (handler: ServicedSession)
+10:52:31.819 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":true}
+10:52:31.821 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.821 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/element (handler: ServicedSession)
+10:52:31.822 INFO - To upstream: {"using":"css selector","value":"input[name=btnK]"}
+10:52:31.837 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":{"ELEMENT":"0.32142968781667003-3"}}
+10:52:31.839 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:31.839 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/element/0.32142968781667003-3/click (handler: ServicedSession)
+10:52:31.840 INFO - To upstream: 
+10:52:33.408 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":null}
+10:52:34.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:34.415 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing POST on /session/426eb44e09f7328ab79a0170e19c89e4/element (handler: ServicedSession)
+10:52:34.417 INFO - To upstream: {"using":"css selector","value":"#main"}
+10:52:34.433 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":{"ELEMENT":"0.9308469998928193-1"}}
+10:52:34.436 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:34.436 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing GET on /session/426eb44e09f7328ab79a0170e19c89e4/element/0.9308469998928193-1/text (handler: ServicedSession)
+10:52:34.679 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":"AllVideosNewsImagesBooksMore\nSettings\nTools\nAbout 5,930,000 results (0.85 seconds) \n\n\nNightwatch.js | Node.js powered End-to-End testing framework\nnightwatchjs.org/\nWrite efficient and straightforward end-to-end tests in Node.js which run against a Selenium/WebDriver server.\nWhat is Nightwatch? · Configuration · Using Nightwatch · Running Tests\nNightwatch Full Episodes, Video & More | A&E\nwww.aetv.com/shows/nightwatch\nIt's an emotional night on the Nightwatch in New Orleans as one EMS officer tells his partner that this is their last night on the job. Meanwhile, it's a tough night in ...\nNightwatch | A&E · Nightwatch Pictures ... · Nightwatch Healthwatch · About\nGitHub - nightwatchjs/nightwatch: Automated testing and continous ...\nhttps://github.com/nightwatchjs/nightwatch\nnightwatch javascript selenium-webdriver coverage nodejs. ... Latest commit 3d2aac9 on Aug 2 beatfactor committed on GitHub Merge pull request #1513 from marian-r/patch-1 …. ... It uses the Selenium WebDriver API.\nNightwatch (1997) - IMDb\nwww.imdb.com/title/tt0119791/\nRating: 6.2/10 - 16,981 votes\nDrama · A law student, who takes a job as a night watchman at a morgue, begins to discover clues that implicate him as the suspect of a series of murders.\nNochnoy dozor (2004) - IMDb\nwww.imdb.com/title/tt0403358/\nRating: 6.5/10 - 48,834 votes\nAction · A fantasy-thriller set in present-day Moscow where the respective forces that control .... Taglines: All That Stands Between Light And Darkness Is The Night Watch.\nNightwatch (TV Series 2015– ) - IMDb\nwww.imdb.com/title/tt4287464/\nReality-TV · Follow the men and women who keep the citizens of New Orleans safe during the night. Ride along with the police officers, the firefighters, and the ...\nNightwatch (1997 film) - Wikipedia\nhttps://en.wikipedia.org/wiki/Nightwatch_(1997_film)\nNightwatch is a 1997 American horror-thriller film directed by Ole Bornedal and starring Ewan McGregor, Patricia Arquette, Josh Brolin and Nick Nolte.\nMusic by: Joachim Holbek Starring: Ewan McGregor; Patricia Arquette; Jo...\nBox office: $1,278,516 (US) Release date: April 17, 1998\nNight Watch (2004 film) - Wikipedia\nhttps://en.wikipedia.org/wiki/Night_Watch_(2004_film)\nNight Watch is a 2004 Russian urban fantasy supernatural thriller film written by Timur Bekmambetov and Laeta Kalogridis and directed by Timur Bekmambetov.\nLanguage: Russian Budget: $4.2 million\nBased on: The Night Watch; by Sergei Lukyan... Production company: Channel One Russia; Ba...\nNightwatch (comics) - Wikipedia\nhttps://en.wikipedia.org/wiki/Nightwatch_(comics)\nNightwatch is a fictional superhero who has appeared in various comic book series published by Marvel Comics. He exists in Marvel's main shared universe, ...\nFirst appearance: Web of Spider-Man #97 ... Publisher: Marvel Comics\nAbilities: Enhanced strength, agility and reflex...\nNight Watch (Lukyanenko novel) - Wikipedia\nhttps://en.wikipedia.org/wiki/Night_Watch_(Lukyanenko_novel)\nNight Watch (Russian: Ночной дозор) is the first fantasy novel by the Russian author Sergei Lukyanenko to feature his fictional world of the Others. Lukyanenko ...\nSeries: World of Watches Translator: Andrew Bromfield\nAuthor: Sergei Lukyanenko Genre: Fantasy\nSearches related to nightwatch\nnightwatch testing\nnightwatch season 3\nnightwatch movie\nnightwatch 1997\nnightwatch cast\nnightwatch got\nnightwatch marvel\nnightwatch book\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nNext\nNightwatch\nTV program\n8.9/10 · IMDb\n98% liked this TV show\nGoogle users\nThe old saying \"Nothing good happens after midnight\" rings true in the nonfiction series \"Nightwatch.\" Hourlong episodes follow emergency responders in New Orleans and Tampa, Fla., who work the busy, unpredictable 8 p.m. to 4 a.m. shift, battling time and circumstances while attempting to save lives… MORE\nFirst episode date: January 22, 2015\nNetwork: A&E Network\nEpisodes\nS04 E10 · Thin Blue Line\nApr 20, 2017\nS04 E09 · Tough Love\nApr 13, 2017\nS04 E08 · Teenage Wasteland\nApr 6, 2017\nView 35+ more\nSeason 4 Episode 10 available on\nFrom $1.99\nYouTube\nFrom $1.99\niTunes\nFrom $1.99\nAmazon Video\nMore services\nPeople also search for\nView 10+\nNightwatch: After Hours\nNightwatch: Ride Along\nOMG EMT\nSince 2014\nFeedback\nSee results about\nNight Watch (2004 film)\nRelease date: February 17, 2006 (USA)\nDirector: Timur Bekmambetov\nNightwatch (1997 film)\nInitial release: February 1997\nDirector: Ole Bornedal\nNightwatch (Fictional superhero)\nAbilities: Agility, Invisibility, Shapeshifting\nPublisher: Marvel Comics\nNight Watch (Novel by Sergei Lukyanenko)\nOriginally published: 1998\nAuthor: Sergei Lukyanenko\n84111, Salt Lake City, UT - From your Internet address - Use precise location - Learn more\nHelp Send feedback Privacy Terms"}
+10:52:34.685 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:34.685 INFO - Handler thread for session 426eb44e09f7328ab79a0170e19c89e4 (chrome): Executing DELETE on /session/426eb44e09f7328ab79a0170e19c89e4 (handler: ServicedSession)
+10:52:34.737 INFO - To downstream: {"sessionId":"426eb44e09f7328ab79a0170e19c89e4","status":0,"value":null}
+10:52:34.740 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@6e553b3c
+10:52:34.745 INFO - To downstream: {"sessionId":"","status":0,"value":null}
