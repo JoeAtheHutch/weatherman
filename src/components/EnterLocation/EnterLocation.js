@@ -34,7 +34,7 @@ class EnterLocation extends Component {
         <input
           className="enter-location__input"
           onChange={ this.handleChange }
-          placeholder="London / 84601"
+          placeholder="London / 84119"
           type="text"
           value={ this.state.location }
         />
